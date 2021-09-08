@@ -5,7 +5,7 @@ from pygame import mixer
 # Intialize the pygame
 pygame.init()
 # Create the screen
-screen = pygame.display.set_mode((1500, 1500))
+screen = pygame.display.set_mode((800, 1500))
 # Background
 background = pygame.image.load("background.png")
 #Background Sound
@@ -18,7 +18,7 @@ pygame.display.set_icon(icon)
 # Player
 playerImg = pygame.image.load("player.png")
 playerX = 1500
-playerY = 15
+playerY = 500
 playerX_change = 0
 # Enemy
 enemyImg = []
