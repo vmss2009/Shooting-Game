@@ -89,9 +89,9 @@ while running:
             running = False
         # if key stroke is pressed check weather it is right or left
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_LEFT:
+            if event.key == pygame.K_q:
                 playerX_change = -2
-            if event.key == pygame.K_RIGHT:
+            if event.key == pygame.K_p:
                 playerX_change = 2
             if event.key == pygame.K_SPACE:
                 if bullet_state == "ready":
